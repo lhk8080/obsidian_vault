@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "cde3a3f70636f7f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "b86e84c4e2133cdd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a409c0094263faba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS-SAA/ELB & ASG.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ELB & ASG"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "baf372a9542a0b3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f33f34be84ea83f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af8d5c1ce4305085",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "597c07ddcd30b546",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "6c45810b93980488",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "524f67678e1d537d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e29d2df190debb59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f23eb1071a4ba6eb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AWS-SAA/ELB & ASG.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "ELB & ASG 의 백링크"
+            }
+          },
+          {
+            "id": "48db40a9fc344ed8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AWS-SAA/ELB & ASG.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "ELB & ASG 의 나가는 링크"
+            }
+          },
+          {
+            "id": "563d401fa4eac6d0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "53003d2de2da9fd5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "e9c8b785e4fd045e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AWS-SAA/ELB & ASG.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "ELB & ASG 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "af8d5c1ce4305085",
+  "lastOpenFiles": [
+    "Network",
+    "AWS-SAA/EC2(4) - Network & Hibernate.md",
+    "AWS-SAA/EC2(3) - IP & Placement Group.md",
+    "AWS-SAA/EC2(1) - Instance Type & Security Group.md",
+    "AWS-SAA/EBS Volume.md",
+    "AWS-SAA/무제.base",
+    "AWS-SAA/attatchments/Pasted image 20260606133743.png",
+    "AWS-SAA/attatchments/Pasted image 20260606133652.png",
+    "AWS-SAA/attatchments/Pasted image 20260606133141.png",
+    "AWS-SAA/attatchments/Pasted image 20260606132039.png",
+    "AWS-SAA/attatchments/Pasted image 20260606131731.png",
+    "AWS-SAA/attatchments/Pasted image 20260606131716.png",
+    "AWS-SAA/attatchments/Pasted image 20260606131710.png",
+    "AWS-SAA/attatchments/Pasted image 20260606131436.png",
+    "AWS-SAA/attatchments/Pasted image 20260606131422.png",
+    "AWS-SAA/attatchments/Pasted image 20260606131337.png",
+    "AWS-SAA/attatchments",
+    "AWS-SAA/AWS CLI.md",
+    "AWS-SAA/EC2(2) - Purchase Options & Spot Fleets.md",
+    "AWS-SAA/Route53.md",
+    "AWS-SAA/RDS & Aurora & Elasticache.md",
+    "AWS-SAA/IAM - Policy & Role & Purchase Budget.md",
+    "AWS-SAA/ELB & ASG.md",
+    "AWS-SAA",
+    "AWS CLI.md",
+    "Route53.md",
+    "EC2(1) - Instance Type & Security Group.md",
+    "EC2(2) - Purchase Options & Spot Fleets.md",
+    "환영합니다!.md",
+    "무제.base",
+    "RDS & Aurora & Elasticache.md",
+    "IAM - Policy & Role & Purchase Budget.md",
+    "ELB & ASG.md",
+    "EC2(4) - Network & Hibernate.md",
+    "EC2(3) - IP & Placement Group.md",
+    "EBS Volume.md"
+  ]
+}
