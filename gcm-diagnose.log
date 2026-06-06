@@ -1,0 +1,185 @@
+﻿Diagnose log at 2026-06-06T08:17:34Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\lhk64
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=HKS
+GIT_TRACE2_PARENT_SID=498ec64e-c4ee-47de-b97a-18ccde95a8b0
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\lhk64\OneDrive
+SESSIONNAME=Console
+TMP=C:\Users\lhk64\AppData\Local\Temp
+LC_CTYPE=C.UTF-8
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW;.CPL
+EFC_10212_2946480783=1
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\lhk64\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\lhk64\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+COLORTERM=truecolor
+JAVA_HOME=C:\Program Files\Java\jdk-22.0.1
+USERDOMAIN=HKS
+PROCESSOR_REVISION=2102
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\lhk64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\mingw64\bin;C:\Program Files\jdk-22.0.1\bin;C:\Program Files\Java\jdk-22.0.1\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Ruby33-x64\bin;C:\Ruby40-x64\bin;C:\Program Files\Java\jdk-24\bin;C:\Users\lhk64\AppData\Local\Microsoft\WindowsApps;C:\Users\lhk64\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.1\bin;;C:\Users\lhk64\.dotnet\tools;;C:\Users\lhk64\AppData\Local\SOOP;C:\Users\lhk64\AppData\Roaming\npm
+PROCESSOR_LEVEL=25
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD
+TMPDIR=C:\Users\lhk64\AppData\Local\Temp
+EFC_10212_2283032206=1
+ProgramFiles(x86)=C:\Program Files (x86)
+EFC_10212_1262719628=1
+NUMBER_OF_PROCESSORS=12
+FPS_BROWSER_USER_PROFILE_STRING=Default
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramW6432=C:\Program Files
+EFC_10212_4126798990=1
+ProgramFiles=C:\Program Files (x86)
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.1\bin;
+SystemRoot=C:\WINDOWS
+PUBLIC=C:\Users\Public
+HOME=C:\Users\lhk64
+CommonProgramW6432=C:\Program Files\Common Files
+LOGONSERVER=\\HKS
+EFC_10212_1592913036=1
+USERPROFILE=C:\Users\lhk64
+EFC_10212_2775293581=1
+USERDOMAIN_ROAMINGPROFILE=HKS
+APPDATA=C:\Users\lhk64\AppData\Roaming
+HOMEDRIVE=C:
+EFC_10212_3789132940=1
+PSModulePath=C:\Users\lhk64\OneDrive\문서\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+USERNAME=lhk64
+PROCESSOR_ARCHITEW6432=AMD64
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+windir=C:\WINDOWS
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\lhk64\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\lhk64\AppData\Local\Temp\ccc24ea18ed9dd8f904dd921'... OK
+Reading from temporary file 'C:\Users\lhk64\AppData\Local\Temp\ccc24ea18ed9dd8f904dd921'... OK
+Deleting temporary file 'C:\Users\lhk64\AppData\Local\Temp\ccc24ea18ed9dd8f904dd921'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\lhk64
+UserDataDirectoryPath: C:\Users\lhk64\.gcm
+GetCurrentDirectory(): D:\obsidian-workspace\obsidian_vault
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:53427/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.50.0.windows.1'
+Locating current repository...Git repository at 'D:/obsidian-workspace/obsidian_vault/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/lhk64/.gitconfig	user.name=HK
+file:C:/Users/lhk64/.gitconfig	user.email=ram1539@naver.com
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/lhk8080/obsidian_vault.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\lhk64\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\lhk64\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+

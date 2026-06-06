@@ -5,7 +5,7 @@
 > 도메인 > IP로 변환
 - Hirerachial 규칙 (Root / TLD / authoritative)
 - Resolver는 public resolver를 사용할 수도 있고, 직접 Resolver를 구축할 수도 있음
-![[Pasted image 20260606133652.png]]
+![](Pasted%20image%2020260606133652.png)
 
 
 - DNS 용어
@@ -39,8 +39,7 @@
 - Route 53을 통하여 도메인 등록 / 등록된 리소스 상태 health check도가능
 - domain/subdomain + record type + value(ip)
 - Routing Policy / TTL(resolver caching 수명)
-
-![[Pasted image 20260606133743.png]]
+![](Pasted%20image%2020260606133743.png)
 
 ### Record Type
 

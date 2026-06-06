@@ -61,8 +61,8 @@
 - Allow List > 허용 규칙만 존재 (c.f Deny List)
 - 하나의 ENI에 여러개의 SG가 붙을 수 있음 → **Rule들의 Union**으로 동작
 - **SG를 설계할 때에는 재사용성을 항상 고려**할 것
+![](Pasted%20image%2020260606132039.png)
 
-![[Pasted image 20260606132039.png]]
 ### Security Group Referencing
 
 > Source/Destination IP에 다른 SG를 지정

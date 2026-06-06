@@ -79,8 +79,7 @@
 - 방화벽, 침입 방지 및 보호 시스템, 패킷 검사 시스템 등
 - GENEVE 프로토콜, port 6081
 
-![[Pasted image 20260606131337.png]]
-
+![](Pasted%20image%2020260606131337.png)
 ## Sticky Session
 
 - Session Affinity / Stickiness
@@ -116,13 +115,10 @@
 - ALB는 항상 Cross Zone이 항상 활성화됨 (고정 ON)
 - GWLB / NLB는 Cross Zone 옵션을 선택할 수 있음 (기본 OFF)
 
-
-![[Pasted image 20260606131422.png]]
-
+![](Pasted%20image%2020260606131422.png)
 cross-zone 옵션이 false인 경우
 
-![[Pasted image 20260606131436.png]]
-
+![](Pasted%20image%2020260606131436.png)
 cross-zone 옵션이 true인 경우
 
 - target group과 az
