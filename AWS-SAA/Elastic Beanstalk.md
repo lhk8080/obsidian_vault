@@ -11,5 +11,4 @@
 - Application Version : 
 - Environmnet
 
-web server tier
-worker tier
+(+) web server tier / worker tier

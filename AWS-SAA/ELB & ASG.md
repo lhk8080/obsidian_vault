@@ -47,28 +47,21 @@
 - Health Check : **Target Group**이 health check를 위한 요청을 주기적을 보냄 (GET /health)
 
 → ALB는 여러 Listner를 가질 수 있고, Listener들은 여러 Rule을 가질 수 있음
-
 → 전체 흐름 : Client > Listner > Rule > Target Group > Target
+→ **ALB는 고정 IP가 존재하지 않음**
 
 # Network Load Balancer (v2)
 
 - 전송 계층(L4)에서 TCP/UDP 트래픽을 서버로 포워딩
-    
 - 초당 수백 만 건의 요청 처리, 짧은 지연시간
-    
 - **AZ 당 하나의 static IP**를 가질 수 있음 + **EIP 할당** 가능
-    
 - Target Group으로는 EC2 인스턴스, IP 주소(Private IP여야 함), ALB
-    
 - **Health Check는 TCP, HTTP, HTTPS 프로토콜 지원**
-    
 - 왜 ALB 앞단에 NLB를 둘까?
-    
     - ALB는 고정 IP를 제공하지 않음 > NLB를 두어 고정 IP 확보
     - AWS *PrivateLink는 NLB만 지원
     
     *PrivateLink : 인터넷을 거치지 않고 다른 VPC의 서비스를 사설망으로 연결
-    
     SaaS 업체에서 제공하는 서비스 연결할 경우 (Snowflake, Datadog)
     
 
