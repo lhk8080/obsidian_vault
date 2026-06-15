@@ -88,17 +88,11 @@
 - ALB 쿠키를 통해 사용자를 식별, 쿠키가 만료되면 다른 서버로 리다이렉트 될 수 있음
 - 스티키 세션을 사용할 때 쿠키의 종류는 2가지
     - Application-based Cookies : 어플리케이션이 직접 생성한 쿠키
-        
         - Custom Cookie
-            
             어플리케이션에 의해 생성 / 쿠키명은 Target Group을 식별할 수 있어야 함
-            
-            쿠키명 > AWSALB, AWSALBAPP, AWSALBTG은 사용X
-            
+            쿠키명 > `AWSALB`, `AWSALBAPP`, `AWSALBTG` 은 사용X
         - Application Cookie
-            
             LB에 의해 생성, 쿠키명어느 AWSALBAPP
-            
     - Duration-based Cookies : LB에 의해 생성된 쿠키,
         
 - TG > Edit attributes > Target selection configuration > Stikiness 설정
@@ -117,8 +111,7 @@
 
 ![](Pasted%20image%2020260606131422.png)
 cross-zone 옵션이 false인 경우
-
-![](Pasted%20image%2020260606131436.png)
+![](Pasted%20image%2020260606192954.png)
 cross-zone 옵션이 true인 경우
 
 - target group과 az

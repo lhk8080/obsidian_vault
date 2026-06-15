@@ -125,6 +125,8 @@ c.f) multi-attache vs NFS
 - public AMI / 본인만의 AMI / AWS Marketplace AMI (사고팔기 가능)
 - AMI 생성 : EC2 시작 > Customize > Stop instance > Build AMI (EBS Snapshot)
 
+*(+) Golden AMI : 운영에 바로 투입될 수 있는 표준 이미지(오토스케일링 환경)
+
 ---
 
 # Amazone EFS

@@ -11,17 +11,154 @@
             "id": "9bc446219ffa394d",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "AWS-SAA/attatchments/Pasted image 20260606131337.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260606131337"
+            }
+          },
+          {
+            "id": "ccebe7b97e4f6120",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS-SAA/Route53.md",
+                "file": "AWS-SAA/EBS Volume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Route53"
+              "title": "EBS Volume"
+            }
+          },
+          {
+            "id": "43c02be2af2bfa4c",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "AWS-SAA/무제.base",
+                "viewName": "표"
+              },
+              "icon": "lucide-table",
+              "title": "무제"
+            }
+          },
+          {
+            "id": "3450c07e4afd2b8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타/FQDN & PQDN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FQDN & PQDN"
+            }
+          },
+          {
+            "id": "9b04e0373f67cf5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타/VDI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VDI"
+            }
+          },
+          {
+            "id": "a7c79cb40c23a76d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타/Openstack.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Openstack"
+            }
+          },
+          {
+            "id": "486453153e5a9a60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타/VDI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VDI"
+            }
+          },
+          {
+            "id": "81582e085757f2a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타/WebGPU & WebGL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WebGPU & WebGL"
+            }
+          },
+          {
+            "id": "d69f024d1ec7605e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPU/GPU 스케줄링.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GPU 스케줄링"
+            }
+          },
+          {
+            "id": "f1556e472b2a82c7",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "AWS-SAA/무제.base",
+                "viewName": "표"
+              },
+              "icon": "lucide-table",
+              "title": "무제"
+            }
+          },
+          {
+            "id": "75db6ab4d016f5f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS-SAA/S3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "S3"
             }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -78,7 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 234.5
   },
   "right": {
     "id": "524f67678e1d537d",
@@ -94,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS-SAA/Route53.md",
+                "file": "AWS-SAA/EBS Volume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +241,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Route53 의 백링크"
+              "title": "EBS Volume 의 백링크"
             }
           },
           {
@@ -113,12 +250,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS-SAA/Route53.md",
+                "file": "AWS-SAA/EBS Volume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Route53 의 나가는 링크"
+              "title": "EBS Volume 의 나가는 링크"
             }
           },
           {
@@ -156,13 +293,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS-SAA/Route53.md",
+                "file": "AWS-SAA/EBS Volume.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Route53 의 개요"
+              "title": "EBS Volume 의 개요"
             }
           }
         ]
@@ -183,44 +320,52 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "9bc446219ffa394d",
+  "active": "75db6ab4d016f5f9",
   "lastOpenFiles": [
-    "AWS-SAA/attatchments/Pasted image 20260606133652.png",
-    "AWS-SAA/Route53.md",
+    "AWS-SAA/무제.base",
+    "AWS-SAA/S3.md",
+    "기타/VDI.md",
+    "GPU/Double Buffering.md",
+    "GPU/GPU 스케줄링.md",
+    "무제 1",
+    "기타/WebGPU & WebGL.md",
+    "기타/WebAssembly.md",
+    "기타/Openstack.md",
+    "GPU",
+    "기타/FQDN & PQDN.md",
+    "Linux",
+    "AWS-SAA/무제 1.md",
+    "AWS-SAA/EBS Volume.md",
+    "기타",
+    "FQDN & PQDN",
     "AWS-SAA/EC2(1) - Instance Type & Security Group.md",
+    "AWS-SAA/Elastic Beanstalk.md",
+    "AWS-SAA/Route53.md",
+    "AWS-SAA/RDS & Aurora & Elasticache.md",
+    "AWS-SAA/ELB & ASG.md",
+    "AWS-SAA/architecture",
+    "AWS-SAA/attatchments/Pasted image 20260606211740.png",
+    "AWS-SAA/attatchments/Pasted image 20260606192954.png",
     "AWS-SAA/attatchments/Pasted image 20260606133743.png",
+    "AWS-SAA/attatchments/Pasted image 20260606131422.png",
+    "AWS-SAA/attatchments/Pasted image 20260606131337.png",
+    "AWS-SAA/attatchments/Pasted image 20260606133652.png",
     "AWS-SAA/attatchments/Pasted image 20260606133141.png",
     "AWS-SAA/attatchments/Pasted image 20260606132039.png",
+    "AWS-SAA/attatchments/Pasted image 20260606131731.png",
+    "AWS-SAA/attatchments/Pasted image 20260606131716.png",
+    "Pasted image 20260606131436.png.md",
+    "attachments/Pasted.md",
+    "attachments",
+    "AWS-SAA/AWS CLI.md",
     "AWS-SAA/EC2(4) - Network & Hibernate.md",
     "AWS-SAA/EC2(3) - IP & Placement Group.md",
     "AWS-SAA/EC2(2) - Purchase Options & Spot Fleets.md",
-    "AWS-SAA/RDS & Aurora & Elasticache.md",
-    "AWS-SAA/attatchments/Pasted image 20260606131731.png",
-    "AWS-SAA/attatchments/Pasted image 20260606131710.png",
-    "AWS-SAA/attatchments/Pasted image 20260606131716.png",
-    "AWS-SAA/attatchments/Pasted image 20260606131422.png",
-    "AWS-SAA/attatchments/Pasted image 20260606131337.png",
-    "AWS-SAA/ELB & ASG.md",
     "gcm-diagnose.log",
     "Network",
-    "AWS-SAA/EBS Volume.md",
-    "AWS-SAA/무제.base",
-    "AWS-SAA/attatchments/Pasted image 20260606131436.png",
-    "AWS-SAA/attatchments",
-    "AWS-SAA/AWS CLI.md",
     "AWS-SAA/IAM - Policy & Role & Purchase Budget.md",
-    "AWS-SAA",
     "AWS CLI.md",
     "Route53.md",
-    "EC2(1) - Instance Type & Security Group.md",
-    "EC2(2) - Purchase Options & Spot Fleets.md",
-    "환영합니다!.md",
-    "무제.base",
-    "RDS & Aurora & Elasticache.md",
-    "IAM - Policy & Role & Purchase Budget.md",
-    "ELB & ASG.md",
-    "EC2(4) - Network & Hibernate.md",
-    "EC2(3) - IP & Placement Group.md",
-    "EBS Volume.md"
+    "EC2(1) - Instance Type & Security Group.md"
   ]
 }
