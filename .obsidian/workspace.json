@@ -27,6 +27,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "AWS-SAA/Storage Extras.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Storage Extras"
+            }
+          },
+          {
+            "id": "542672c4b369d6ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "AWS-SAA/SQS & SNS.md",
                 "mode": "source",
                 "source": false
@@ -34,9 +48,37 @@
               "icon": "lucide-file",
               "title": "SQS & SNS"
             }
+          },
+          {
+            "id": "4de7f058ff2ce315",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS-SAA/Kinesis Data Streams.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kinesis Data Streams"
+            }
+          },
+          {
+            "id": "93873cc48b28c4f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS-SAA/LoadBalancer keep-alive.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LoadBalancer keep-alive"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -190,25 +232,30 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:빠른 전환기 열기": false,
-      "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "bases:새 베이스 생성하기": false
+      "bases:새 베이스 생성하기": false,
+      "graph:그래프 뷰 열기": false
     }
   },
-  "active": "22051f03d367ff36",
+  "active": "af8d5c1ce4305085",
   "lastOpenFiles": [
-    "AWS-SAA/S3.md",
-    "AWS-SAA/SQS & SNS.md",
     "AWS-SAA/Storage Extras.md",
-    "n8n.md",
-    "AWS-SAA/Route53.md",
-    "AWS-SAA/ELB & ASG.md",
     "AWS-SAA/EC2(4) - Network & Hibernate.md",
-    "AWS-SAA/IAM - Policy & Role & Purchase Budget.md",
+    "AWS-SAA/Kinesis Data Streams.md",
+    "AWS-SAA/Route53.md",
     "AWS-SAA/RDS & Aurora & Elasticache.md",
+    "AWS-SAA/무제.md",
+    "AWS-SAA/SQS & SNS.md",
+    "무제.md",
+    "AWS-SAA/Elastic Beanstalk.md",
+    "AWS-SAA/LoadBalancer keep-alive.md",
+    "AWS-SAA/S3.md",
+    "n8n.md",
+    "AWS-SAA/ELB & ASG.md",
+    "AWS-SAA/IAM - Policy & Role & Purchase Budget.md",
     "AWS-SAA/EC2(3) - IP & Placement Group.md",
     "AWS-SAA/CloudFront.md",
     "AWS-SAA/무제.base",
@@ -218,7 +265,6 @@
     "기타/FQDN & PQDN.md",
     "AWS-SAA/EBS Volume.md",
     "AWS-SAA/attatchments/Pasted image 20260606131337.png",
-    "AWS-SAA/Elastic Beanstalk.md",
     "GPU/Double Buffering.md",
     "GPU/GPU 스케줄링.md",
     "무제 1",
@@ -239,11 +285,7 @@
     "AWS-SAA/attatchments/Pasted image 20260606132039.png",
     "AWS-SAA/attatchments/Pasted image 20260606131731.png",
     "AWS-SAA/attatchments/Pasted image 20260606131716.png",
-    "Pasted image 20260606131436.png.md",
-    "attachments/Pasted.md",
     "attachments",
-    "AWS-SAA/AWS CLI.md",
-    "AWS-SAA/EC2(2) - Purchase Options & Spot Fleets.md",
     "gcm-diagnose.log",
     "Network"
   ]
