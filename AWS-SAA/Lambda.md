@@ -23,6 +23,9 @@
 
 #### Lambda Invocation
 > 람다 함수는 동기/비동기 방식으로 호출될 수 있음
+- 동기 : 기본값, 함수 실행 결과를 기다림
+- 비동기 : InvocationType=Event로 설정, 이벤트 전달만 하고 반환
+	- 비동기는 오류 발생 시 자동 재시도 가능, DLQ 설정 가능
 
 ### Lambda Limit
 > Lambda는 AWS가 설정한 제약사항이 존재함
@@ -43,6 +46,16 @@
 - concurrency 값이 넘어서면 > Throttling 발생
 	- 동기 호출 : ThrottleError 발생 (429 Too Many Request)
 	- 비동기 호출 : retry -> DLQ(Dead Letter Queue)
+
+#### Cold Start
+> 람다 함수 오랫동안 실행 되지 않거나, 새로운 실행 환경이 필요할 때 실행 환경 셋팅에 필요한 초기 지연 시간
+- 람다 호출 -> 실행 환경 (컨테이너)가 없으면, 실행 환경을 먼저 생성해야 함
+- **최초 호출 / 트래픽 급증** 등 **새로운 인스턴스가 필요한 경우** 발생
+- Java, .NET 등 런타임과 의존성이 큰 경우, 콜드스타트 영향이 큼
+
+**Cold Start 줄이는 법**
+- Provisioned Concurrency를 사용 (실행 환경을 미리 준비)
+
 
 ### Lambda Snapshot
 
