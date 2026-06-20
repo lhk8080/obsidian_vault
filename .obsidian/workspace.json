@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f3cb6bc60ac22624",
+        "id": "69461e22ada0fc6e",
         "type": "tabs",
         "children": [
           {
-            "id": "3f9df3612e1a0ff3",
+            "id": "cd37f6645629a4b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS-SAA/Storage Extras.md",
+                "file": "AWS-SAA/Hub Note/Serverless.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Storage Extras"
-            }
-          },
-          {
-            "id": "22051f03d367ff36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS-SAA/Storage Extras.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Storage Extras"
-            }
-          },
-          {
-            "id": "542672c4b369d6ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS-SAA/SQS & SNS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQS & SNS"
-            }
-          },
-          {
-            "id": "4de7f058ff2ce315",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS-SAA/Kinesis Data Streams.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kinesis Data Streams"
-            }
-          },
-          {
-            "id": "93873cc48b28c4f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS-SAA/LoadBalancer keep-alive.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LoadBalancer keep-alive"
+              "title": "Serverless"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 439.5
   },
   "right": {
     "id": "524f67678e1d537d",
@@ -240,41 +183,43 @@
       "graph:그래프 뷰 열기": false
     }
   },
-  "active": "af8d5c1ce4305085",
+  "active": "cd37f6645629a4b5",
   "lastOpenFiles": [
-    "AWS-SAA/Storage Extras.md",
-    "AWS-SAA/EC2(4) - Network & Hibernate.md",
-    "AWS-SAA/Kinesis Data Streams.md",
-    "AWS-SAA/Route53.md",
-    "AWS-SAA/RDS & Aurora & Elasticache.md",
-    "AWS-SAA/무제.md",
-    "AWS-SAA/SQS & SNS.md",
-    "무제.md",
-    "AWS-SAA/Elastic Beanstalk.md",
-    "AWS-SAA/LoadBalancer keep-alive.md",
-    "AWS-SAA/S3.md",
-    "n8n.md",
-    "AWS-SAA/ELB & ASG.md",
-    "AWS-SAA/IAM - Policy & Role & Purchase Budget.md",
-    "AWS-SAA/EC2(3) - IP & Placement Group.md",
+    "AWS-SAA/API Gateway.md",
+    "AWS-SAA/Hub Note/Serverless.md",
+    "AWS-SAA/Hub Note/EC2.md",
+    "AWS-SAA/Hub Note/Container.md",
     "AWS-SAA/CloudFront.md",
+    "AWS-SAA/Hub Note",
+    "AWS-SAA/AWS.md",
+    "AWS-SAA/Hub Note/Storage.md",
+    "AWS-SAA/EKS.md",
+    "AWS-SAA/Storage Extras.md",
+    "AWS-SAA/ECS.md",
+    "무제",
+    "AWS-SAA/EC2(4) - Network.md",
+    "AWS-SAA/EC2(4) - Network & Hibernate.md",
+    "AWS-SAA/EC2(3) - IP & Placement Group.md",
+    "AWS-SAA/EC2(2) - Purchase Options & Spot Fleets.md",
+    "AWS-SAA/EC2(1) - Instance Type & Security Group.md",
+    "EC2(1) - Instance Type & Security.md",
+    "EC2(2) - Purchase.md",
+    "EC2(4) - Network.md",
+    "AWS-SAA/DynamoDB.md",
     "AWS-SAA/무제.base",
-    "기타/WebGPU & WebGL.md",
-    "기타/VDI.md",
-    "기타/Openstack.md",
-    "기타/FQDN & PQDN.md",
-    "AWS-SAA/EBS Volume.md",
+    "AWS-SAA/Lambda.md",
+    "AWS-SAA/ECR.md",
+    "AWS-SAA/IAM - Policy & Role & Purchase Budget.md",
+    "AWS-SAA/Kinesis Data Streams.md",
+    "AWS-SAA/LoadBalancer keep-alive.md",
+    "AWS-SAA/RDS & Aurora & Elasticache.md",
+    "AWS-SAA/S3.md",
     "AWS-SAA/attatchments/Pasted image 20260606131337.png",
-    "GPU/Double Buffering.md",
-    "GPU/GPU 스케줄링.md",
     "무제 1",
-    "기타/WebAssembly.md",
     "GPU",
     "Linux",
-    "AWS-SAA/무제 1.md",
     "기타",
     "FQDN & PQDN",
-    "AWS-SAA/EC2(1) - Instance Type & Security Group.md",
     "AWS-SAA/architecture",
     "AWS-SAA/attatchments/Pasted image 20260606211740.png",
     "AWS-SAA/attatchments/Pasted image 20260606192954.png",
@@ -285,8 +230,6 @@
     "AWS-SAA/attatchments/Pasted image 20260606132039.png",
     "AWS-SAA/attatchments/Pasted image 20260606131731.png",
     "AWS-SAA/attatchments/Pasted image 20260606131716.png",
-    "attachments",
-    "gcm-diagnose.log",
-    "Network"
+    "attachments"
   ]
 }
