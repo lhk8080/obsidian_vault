@@ -39,23 +39,49 @@
 	- 압축의 경우 - 최대 50MB
 	- 압축하지 않은 경우 - 최대 250MB
 
-
 ### Lambda Concurrency / Throttling
-- lambda concurrency값은 기본 1000으로 설정
+- ***Concurrency* : 동시에 실행 중인 Lambda 실행환경의 개수**
+- lambda concurrency값은 1000으로 할당됨 (계정 + 리전 단위)
 - reserved concurrency를 설정하여, concurrency을 조절할 수 있음
 - concurrency 값이 넘어서면 > Throttling 발생
 	- 동기 호출 : ThrottleError 발생 (429 Too Many Request)
 	- 비동기 호출 : retry -> DLQ(Dead Letter Queue)
+
+(+) reserved concurrency : lambda 함수 동시 실행 수를 예약, 최대 실행 수를 제한
+(+) provisioned concurrency : Lambda 실행 환경을 미리 생성
 
 #### Cold Start
 > 람다 함수 오랫동안 실행 되지 않거나, 새로운 실행 환경이 필요할 때 실행 환경 셋팅에 필요한 초기 지연 시간
 - 람다 호출 -> 실행 환경 (컨테이너)가 없으면, 실행 환경을 먼저 생성해야 함
 - **최초 호출 / 트래픽 급증** 등 **새로운 인스턴스가 필요한 경우** 발생
 - Java, .NET 등 런타임과 의존성이 큰 경우, 콜드스타트 영향이 큼
+- 람다는 한 번 호출된 후 유휴 상태동안 호출이 없으면 컨테이너가 내려감
 
 **Cold Start 줄이는 법**
 - Provisioned Concurrency를 사용 (실행 환경을 미리 준비)
 
+https://docs.aws.amazon.com/lambda/latest/dg/provisioned-concurrency.html
 
-### Lambda Snapshot
 
+### Lambda SnapStart
+> Lambda의 초기 실행 상태를 스냅샷으로 저장 -> 재사용하셔 Cold Start를 줄임
+- 기존 람다는 (init - invoke - shutdown) 순서의 라이프사이클을 가짐
+	- init : 실행 환경 생성, 런타임 로딩, 코드 및 라이브러리 초기화
+	- invoke : 함수를 실행하고 요청 처리
+	- shutdown : 유휴 상태 -> AWS가 실행 환경을 회수
+- Lambda SnapStart를 활성화 하면, init의 결과를 스냅샷으로 저장해두고 사용
+- 실행 환경을 새로 만드는 대신, 스냅샷을 복원해서 사용 (invoke - shutdown)
+- Java, Python, .Net 등 콜드 스타트 개선
+
+### Lambda in VPC
+> 람다를 VPC 내부에 연결 > Private 리소스에 접근 가능하도록 하는 기능
+- Lambda는 기본적으로 VPC 내부에 존재하지 X
+- Lambda를 VPC에 연결하면 RDS, ElastiCache, EC2 등 프라이빗 리소스에 접근 가능
+- VPC 연결 시 ColdStart에 영향
+- usecases :
+	- Lambda in vpc - rds proxy - rds
+	- rds - lambda in vpc 호출
+
+
+
+[Lambda@Edge & CloudFront Functions](Lambda@Edge%20&%20CloudFront%20Functions.md)
