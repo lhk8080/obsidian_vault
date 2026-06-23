@@ -8,59 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cd37f6645629a4b5",
+            "id": "394446f70f234fed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS-SAA/API Gateway.md",
+                "file": "AWS-SAA/Software updates offloading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "API Gateway"
-            }
-          },
-          {
-            "id": "22268ea1978e6b9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS-SAA/Step Function.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Step Function"
-            }
-          },
-          {
-            "id": "cf0cbdf5265a9f07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS-SAA/Cognito.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cognito"
-            }
-          },
-          {
-            "id": "27160b7ebba057c6",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "title": "Software updates offloading"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,19 +183,24 @@
       "graph:그래프 뷰 열기": false
     }
   },
-  "active": "cf0cbdf5265a9f07",
+  "active": "af8d5c1ce4305085",
   "lastOpenFiles": [
+    "AWS-SAA/CloudFront.md",
+    "AWS-SAA/Software updates offloading.md",
+    "Network/OSPF/Neighbor State.md",
+    "Network/OSPF/OSPF.md",
+    "Network/Network.md",
+    "Network/OSPF",
+    "AWS-SAA/API Gateway.md",
+    "AWS-SAA/Cognito.md",
     "AWS-SAA/attatchments/Pasted image 20260621234319.png",
     "AWS-SAA/attatchments/Pasted image 20260621234158.png",
     "AWS-SAA/Step Function.md",
-    "AWS-SAA/Cognito.md",
-    "AWS-SAA/API Gateway.md",
     "AWS-SAA/Hub Note/Serverless.md",
     "AWS-SAA/DynamoDB.md",
     "AWS-SAA/Lambda@Edge & CloudFront Functions.md",
     "AWS-SAA/Lambda.md",
     "AWS-SAA/attatchments/Pasted image 20260620233715.png",
-    "AWS-SAA/CloudFront.md",
     "AWS-SAA/Hub Note/EC2.md",
     "AWS-SAA/Hub Note/Container.md",
     "AWS-SAA/Hub Note",
@@ -251,10 +217,7 @@
     "AWS-SAA/EC2(1) - Instance Type & Security Group.md",
     "EC2(1) - Instance Type & Security.md",
     "EC2(2) - Purchase.md",
-    "EC2(4) - Network.md",
     "AWS-SAA/무제.base",
-    "AWS-SAA/ECR.md",
-    "AWS-SAA/IAM - Policy & Role & Purchase Budget.md",
     "AWS-SAA/attatchments/Pasted image 20260606131337.png",
     "무제 1",
     "GPU",
@@ -267,8 +230,6 @@
     "AWS-SAA/attatchments/Pasted image 20260606133743.png",
     "AWS-SAA/attatchments/Pasted image 20260606131422.png",
     "AWS-SAA/attatchments/Pasted image 20260606133652.png",
-    "AWS-SAA/attatchments/Pasted image 20260606133141.png",
-    "AWS-SAA/attatchments/Pasted image 20260606132039.png",
-    "attachments"
+    "AWS-SAA/attatchments/Pasted image 20260606133141.png"
   ]
 }
