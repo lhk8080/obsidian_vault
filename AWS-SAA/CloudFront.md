@@ -36,3 +36,4 @@
 
 
 [Lambda@Edge & CloudFront Functions](Lambda@Edge%20&%20CloudFront%20Functions.md)
+[Software updates offloading](Software%20updates%20offloading.md)
