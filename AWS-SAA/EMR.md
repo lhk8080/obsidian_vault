@@ -2,7 +2,7 @@
 
 - 빅데이터 프레임워크를 위한 분산 처리 인프라를 AWS가 대신 구축/운영해줌
 - 빅데이터 작업은 Batch 작업이므로, Spot Instance를 사용해서 비용을 줄일 수 있음
-- EMR 지원 프레임워크 : Spark, Hadoop, HBase, Presto 등등
+-  EMR 지원 프레임워크 : Spark, Hadoop, HBase, Presto 등등
 
 ### EMR Cluster 
 - Primary Node : 클러스터를 관리 

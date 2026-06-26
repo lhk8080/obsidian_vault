@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS-SAA/Hub Note/Managed Streaming for Apache Kafka (MSK).md",
+                "file": "AWS-SAA/Glue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Managed Streaming for Apache Kafka (MSK)"
+              "title": "Glue"
             }
           },
           {
@@ -211,30 +211,32 @@
   "active": "c74c3064d8b3d66c",
   "lastOpenFiles": [
     "AWS-SAA/Hub Note/Data Analytics.md",
+    "AWS-SAA/Redshift.md",
+    "AWS-SAA/Athena.md",
+    "AWS-SAA/Big Data Ingestion Pipeline.md",
+    "AWS-SAA/Hub Note/AWS.md",
+    "AWS-SAA/EMR.md",
+    "AWS-SAA/Glue.md",
+    "AWS-SAA/Hub Note/Managed Streaming for Apache Kafka (MSK).md",
+    "AWS-SAA/Hub Note/attatchments/Pasted image 20260626224908.png",
+    "AWS-SAA/Hub Note/attatchments",
     "AWS-SAA/Amazone Managed Service For Apache Flink.md",
     "AWS-SAA/attatchments/Pasted image 20260626223237.png",
-    "AWS-SAA/Big Data Ingestion Pipeline.md",
-    "AWS-SAA/Hub Note/Managed Streaming for Apache Kafka (MSK).md",
     "AWS-SAA/Cognito.md",
     "무제",
     "AWS-SAA/Lake Formation.md",
     "AWS-SAA/attatchments/Pasted image 20260626214219.png",
-    "AWS-SAA/Glue.md",
     "AWS-SAA/attatchments/Pasted image 20260626212419.png",
     "AWS-SAA/attatchments/Pasted image 20260626211922.png",
     "AWS-SAA/QuickSight.md",
     "AWS-SAA/attatchments/Pasted image 20260626211326.png",
     "n8n.md",
-    "AWS-SAA/EMR.md",
     "AWS-SAA/OpenSearch.md",
-    "AWS-SAA/Redshift.md",
     "AWS-SAA/attatchments/Pasted image 20260624232255.png",
     "AWS-SAA/API Gateway.md",
     "AWS-SAA/attatchments/Pasted image 20260624230748.png",
-    "AWS-SAA/Athena.md",
     "AWS-SAA/attatchments/Pasted image 20260624220303.png",
     "AWS-SAA/CloudFront.md",
-    "AWS-SAA/Hub Note/AWS.md",
     "AWS-SAA/Hub Note/Storage.md",
     "AWS-SAA/Database.md",
     "AWS-SAA/Keyspaces.md",
@@ -247,13 +249,11 @@
     "무제 1",
     "Network/OSPF",
     "AWS-SAA/attatchments/Pasted image 20260621234319.png",
-    "AWS-SAA/attatchments/Pasted image 20260621234158.png",
     "AWS-SAA/Hub Note",
     "AWS-SAA/무제.base",
     "GPU",
     "Linux",
     "기타",
-    "FQDN & PQDN",
-    "AWS-SAA/architecture"
+    "FQDN & PQDN"
   ]
 }

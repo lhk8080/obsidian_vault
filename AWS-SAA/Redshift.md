@@ -20,7 +20,7 @@ OLAP : Oline Analytic Processing, 대량의 데이터를 분석하기 위한 시
 - Redshift는 클러스터 단위로 동작, 여러 노드 -> 병렬 처리(MPP, Massively Parallel Processing)
 - 구성요소
 	- Leader Node : SQL을 받아 분배 / 결과를 취합
-	- Compute Node : 쿼리 수행 / 리더에게 전
+	- Compute Node : 쿼리 수행 / 리더에게 전달
 
 ![](Pasted%20image%2020260624230748.png)
 	
@@ -53,3 +53,11 @@ OLAP : Oline Analytic Processing, 대량의 데이터를 분석하기 위한 시
 - but Redshift 내부 데이터보다 성능이 떨어질 수 있음
 
 ![](Pasted%20image%2020260624232255.png)
+
+
+### Enhanced VPC Routing
+> Redshift의 COPY와 UNLOAD 트래픽이 인터넷을 거치지 않고 VPC 내부를 통해 이동하도록 강제하는 기능
+
+- COPY : S3 → Redshift로 데이터 로드
+- UNLOAD : Redshift → S3로 데이터 내보내기
+- 기본적으로는 COPY/UNLOAD 시 AWS 내부 네트워크를 사용하지만, Enhanced VPC Routing을 활성화하면 반드시 VPC를 통해 통신하도록 강제
