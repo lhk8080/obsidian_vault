@@ -27,12 +27,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS-SAA/Lake Formation.md",
+                "file": "AWS-SAA/Hub Note/Managed Streaming for Apache Kafka (MSK).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lake Formation"
+              "title": "Managed Streaming for Apache Kafka (MSK)"
+            }
+          },
+          {
+            "id": "3f36cae1bfeffda9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
         ],
@@ -200,8 +210,15 @@
   },
   "active": "c74c3064d8b3d66c",
   "lastOpenFiles": [
-    "AWS-SAA/attatchments/Pasted image 20260626214219.png",
     "AWS-SAA/Hub Note/Data Analytics.md",
+    "AWS-SAA/Amazone Managed Service For Apache Flink.md",
+    "AWS-SAA/attatchments/Pasted image 20260626223237.png",
+    "AWS-SAA/Big Data Ingestion Pipeline.md",
+    "AWS-SAA/Hub Note/Managed Streaming for Apache Kafka (MSK).md",
+    "AWS-SAA/Cognito.md",
+    "무제",
+    "AWS-SAA/Lake Formation.md",
+    "AWS-SAA/attatchments/Pasted image 20260626214219.png",
     "AWS-SAA/Glue.md",
     "AWS-SAA/attatchments/Pasted image 20260626212419.png",
     "AWS-SAA/attatchments/Pasted image 20260626211922.png",
@@ -216,31 +233,23 @@
     "AWS-SAA/attatchments/Pasted image 20260624230748.png",
     "AWS-SAA/Athena.md",
     "AWS-SAA/attatchments/Pasted image 20260624220303.png",
-    "AWS-SAA/Lake Formation.md",
     "AWS-SAA/CloudFront.md",
     "AWS-SAA/Hub Note/AWS.md",
     "AWS-SAA/Hub Note/Storage.md",
     "AWS-SAA/Database.md",
     "AWS-SAA/Keyspaces.md",
     "AWS-SAA/Hub Note/Serverless.md",
-    "AWS-SAA/Cognito.md",
     "AWS-SAA/Timestream.md",
     "AWS-SAA/RDS & Aurora & Elasticache.md",
     "AWS-SAA/Naptune.md",
     "AWS-SAA/DocumentDB.md",
     "AWS-SAA/DynamoDB.md",
-    "AWS-SAA/Timestrea.md",
     "무제 1",
-    "AWS-SAA/Software updates offloading.md",
-    "Network/OSPF/Neighbor State.md",
     "Network/OSPF",
     "AWS-SAA/attatchments/Pasted image 20260621234319.png",
     "AWS-SAA/attatchments/Pasted image 20260621234158.png",
-    "AWS-SAA/attatchments/Pasted image 20260620233715.png",
     "AWS-SAA/Hub Note",
-    "무제",
     "AWS-SAA/무제.base",
-    "AWS-SAA/attatchments/Pasted image 20260606131337.png",
     "GPU",
     "Linux",
     "기타",
