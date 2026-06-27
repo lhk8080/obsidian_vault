@@ -1,14 +1,15 @@
 
 [AWS CLI](AWS%20CLI.md)
 
+---
 ## Compute  
-[EC2](EC2.md)
-[Container](Container.md)
-[[Elastic Beanstalk]]  
+[Compute](Compute.md)
 
+---
 ## Storage  
 [[Storage]]
 
+---
 ## Database  
 > AWS에는 다양한 데이터베이스 서비스들이 존재함 -> 아키텍쳐에 맞는 DB를 골라야 함
 
@@ -25,23 +26,31 @@
 
 [Database](Database.md)
 
-  
-## Network  
-[[ELB & ASG]]  
-[[Route53]]  
-[[CloudFront]]  
+---
+## Network 
+[Network](Network/Network.md)
 
-  
+---
+
 ## Messaging  
-[[SQS & SNS]]  
-[[EventBridge]]  
-[[Kinesis Data Streams]]  
-  
+[Messaging](Messaging.md)
+
+---
+
 ## Security  
+
+
 [[IAM - Policy & Role & Purchase Budget]]  
-  
+
+---
 ## Serverless  
 [[Serverless]]
 
+
+---
 ## Data Analytics
 [Data Analytics](Data%20Analytics.md)
+
+---
+## Machine Learning
+[Machine Learning](Machine%20Learning.md)

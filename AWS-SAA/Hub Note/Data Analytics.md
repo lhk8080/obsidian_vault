@@ -11,6 +11,8 @@
 
 [Athena](Athena.md)
 [Redshift](Redshift.md)
+
+[Kinesis Data Streams](Kinesis%20Data%20Streams.md)
 [OpenSearch](OpenSearch.md)
 [EMR](EMR.md)
 [QuickSight](QuickSight.md)

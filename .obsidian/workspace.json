@@ -8,45 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f736ab7684159238",
+            "id": "c6cb986a3c1db1e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS-SAA/Hub Note/AWS.md",
+                "file": "AWS-SAA/Transcribe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS"
-            }
-          },
-          {
-            "id": "c74c3064d8b3d66c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS-SAA/Glue.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Glue"
-            }
-          },
-          {
-            "id": "3f36cae1bfeffda9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "title": "Transcribe"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,22 +183,33 @@
       "graph:그래프 뷰 열기": false
     }
   },
-  "active": "c74c3064d8b3d66c",
+  "active": "c6cb986a3c1db1e6",
   "lastOpenFiles": [
+    "AWS-SAA/Hub Note/Machine Learning.md",
+    "AWS-SAA/Transcribe.md",
+    "AWS-SAA/Recognition.md",
+    "AWS-SAA/attatchments/Pasted image 20260627224425.png",
+    "기타/VDI.md",
+    "AWS-SAA/Hub Note/AWS.md",
+    "AWS-SAA/Hub Note/Container.md",
+    "AWS-SAA/Hub Note/Compute.md",
+    "AWS-SAA/Amazone Managed Service For Apache Flink.md",
+    "AWS-SAA/attatchments/Pasted image 20260626224908.png",
+    "무제",
+    "AWS-SAA/Hub Note/Network.md",
     "AWS-SAA/Hub Note/Data Analytics.md",
+    "AWS-SAA/Hub Note/Messaging.md",
+    "AWS-SAA/Kinesis Data Streams.md",
+    "AWS-SAA/Storage Extras.md",
+    "AWS-SAA/Glue.md",
     "AWS-SAA/Redshift.md",
     "AWS-SAA/Athena.md",
     "AWS-SAA/Big Data Ingestion Pipeline.md",
-    "AWS-SAA/Hub Note/AWS.md",
     "AWS-SAA/EMR.md",
-    "AWS-SAA/Glue.md",
     "AWS-SAA/Hub Note/Managed Streaming for Apache Kafka (MSK).md",
-    "AWS-SAA/Hub Note/attatchments/Pasted image 20260626224908.png",
     "AWS-SAA/Hub Note/attatchments",
-    "AWS-SAA/Amazone Managed Service For Apache Flink.md",
     "AWS-SAA/attatchments/Pasted image 20260626223237.png",
     "AWS-SAA/Cognito.md",
-    "무제",
     "AWS-SAA/Lake Formation.md",
     "AWS-SAA/attatchments/Pasted image 20260626214219.png",
     "AWS-SAA/attatchments/Pasted image 20260626212419.png",
@@ -237,18 +223,8 @@
     "AWS-SAA/attatchments/Pasted image 20260624230748.png",
     "AWS-SAA/attatchments/Pasted image 20260624220303.png",
     "AWS-SAA/CloudFront.md",
-    "AWS-SAA/Hub Note/Storage.md",
-    "AWS-SAA/Database.md",
-    "AWS-SAA/Keyspaces.md",
-    "AWS-SAA/Hub Note/Serverless.md",
-    "AWS-SAA/Timestream.md",
-    "AWS-SAA/RDS & Aurora & Elasticache.md",
-    "AWS-SAA/Naptune.md",
-    "AWS-SAA/DocumentDB.md",
-    "AWS-SAA/DynamoDB.md",
     "무제 1",
     "Network/OSPF",
-    "AWS-SAA/attatchments/Pasted image 20260621234319.png",
     "AWS-SAA/Hub Note",
     "AWS-SAA/무제.base",
     "GPU",
