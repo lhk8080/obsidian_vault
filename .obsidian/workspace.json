@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS-SAA/Hub Note/Amazone Polly.md",
+                "file": "AWS-SAA/Hub Note/Amazon Polly.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazone Polly"
+              "title": "Amazon Polly"
             }
           }
         ]
@@ -199,9 +199,9 @@
   },
   "active": "c6cb986a3c1db1e6",
   "lastOpenFiles": [
-    "AWS-SAA/Hub Note/Amazone Polly.md",
+    "AWS-SAA/Amazon Transcribe.md",
     "AWS-SAA/Hub Note/Machine Learning.md",
-    "AWS-SAA/Amazone Transcribe.md",
+    "AWS-SAA/Hub Note/Amazon Polly.md",
     "AWS-SAA/Hub Note/AWS.md",
     "AWS-SAA/Recognition.md",
     "AWS-SAA/attatchments/Pasted image 20260627224425.png",

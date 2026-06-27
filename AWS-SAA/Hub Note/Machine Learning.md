@@ -1,6 +1,7 @@
 
 
 [Recognition](Recognition.md)
-[Amazone Transcribe](Amazone%20Transcribe.md)
+[Amazon Transcribe](Amazon%20Transcribe.md)
+[Amazon Polly](Amazon%20Polly.md)
 
-[Amazone Polly](Amazone%20Polly.md)
+
