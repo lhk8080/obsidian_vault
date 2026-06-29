@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS-SAA/SageMaker.md",
+                "file": "AWS-SAA/Hub Note/Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SageMaker"
+              "title": "Machine Learning"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "b7b790939fa1747f",
   "lastOpenFiles": [
+    "AWS-SAA/SageMaker.md",
     "AWS-SAA/Hub Note/Machine Learning.md",
     "AWS-SAA/Comprehend.md",
     "AWS-SAA/Lex + Connect.md",
@@ -194,7 +195,6 @@
     "AWS-SAA/Personalize.md",
     "AWS-SAA/Kendra.md",
     "AWS-SAA/Hub Note/Amazon Polly.md",
-    "AWS-SAA/SageMaker.md",
     "AWS-SAA/Athena.md",
     "AWS-SAA/Hub Note/AWS.md",
     "AWS-SAA/Amazon Transcribe.md",
