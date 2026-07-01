@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0f9f1ca251a07d96",
+        "id": "0d9defb15d93c1fd",
         "type": "tabs",
         "children": [
           {
-            "id": "b7b790939fa1747f",
+            "id": "20e98d14b55908db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS-SAA/Hub Note/Machine Learning.md",
+                "file": "AWS-SAA/CloudWatch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Machine Learning"
+              "title": "CloudWatch"
             }
           }
         ]
@@ -180,40 +180,44 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "bases:새 베이스 생성하기": false,
-      "graph:그래프 뷰 열기": false
+      "graph:그래프 뷰 열기": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7b790939fa1747f",
+  "active": "20e98d14b55908db",
   "lastOpenFiles": [
-    "AWS-SAA/SageMaker.md",
-    "AWS-SAA/Hub Note/Machine Learning.md",
-    "AWS-SAA/Comprehend.md",
-    "AWS-SAA/Lex + Connect.md",
-    "AWS-SAA/Amazon Translate.md",
-    "AWS-SAA/무제.md",
-    "AWS-SAA/Textract.md",
-    "AWS-SAA/Personalize.md",
-    "AWS-SAA/Kendra.md",
-    "AWS-SAA/Hub Note/Amazon Polly.md",
+    "AWS-SAA/AWS Config.md",
+    "AWS-SAA/AWS CLI.md",
+    "AWS-SAA/CloudWatch.md",
+    "AWS-SAA/attatchments/Pasted image 20260701222221.png",
+    "AWS-SAA/Hub Notes/Monitoring.md",
+    "Linux/Linux.md",
+    "Linux/VSZ & RSS.md",
+    "Linux/Memory Management.md",
+    "AWS-SAA/CloudTail.md",
     "AWS-SAA/Athena.md",
-    "AWS-SAA/Hub Note/AWS.md",
+    "Network/Network.md",
+    "Linux/Hub Notes",
+    "Linux",
+    "AWS-SAA/Naptune.md",
+    "AWS-SAA/Monitoring.md",
+    "AWS-SAA/Hub Notes/AWS.md",
+    "AWS-SAA/Managed Streaming for Apache Kafka (MSK).md",
     "AWS-SAA/Amazon Transcribe.md",
+    "AWS-SAA/Hub Notes/Container.md",
+    "Network/OSPF/OSPF.md",
+    "Network/OSPF/Neighbor State.md",
+    "AWS-SAA/Amazon Polly.md",
+    "AWS-SAA/Hub Notes/Machine Learning.md",
+    "AWS-SAA/Amazon Translate.md",
     "AWS-SAA/Recognition.md",
+    "AWS-SAA/Amazon Textract.md",
+    "AWS-SAA/attatchments/Pasted image 20260629224003.png",
+    "AWS-SAA/Amazon Managed Service For Apache Flink.md",
+    "AWS-SAA/Amazon Personalize.md",
+    "AWS-SAA/Kendra.md",
     "AWS-SAA/attatchments/Pasted image 20260627224425.png",
-    "기타/VDI.md",
-    "AWS-SAA/Hub Note/Container.md",
-    "AWS-SAA/Hub Note/Compute.md",
-    "AWS-SAA/Amazone Managed Service For Apache Flink.md",
     "AWS-SAA/attatchments/Pasted image 20260626224908.png",
-    "무제",
-    "AWS-SAA/Hub Note/Network.md",
-    "AWS-SAA/Hub Note/Data Analytics.md",
-    "AWS-SAA/Hub Note/Messaging.md",
-    "AWS-SAA/Kinesis Data Streams.md",
-    "AWS-SAA/Storage Extras.md",
-    "AWS-SAA/Glue.md",
-    "AWS-SAA/Redshift.md",
-    "AWS-SAA/Big Data Ingestion Pipeline.md",
     "AWS-SAA/Hub Note/attatchments",
     "AWS-SAA/attatchments/Pasted image 20260626223237.png",
     "AWS-SAA/attatchments/Pasted image 20260626214219.png",
@@ -221,15 +225,12 @@
     "AWS-SAA/attatchments/Pasted image 20260626211922.png",
     "AWS-SAA/attatchments/Pasted image 20260626211326.png",
     "AWS-SAA/attatchments/Pasted image 20260624232255.png",
-    "AWS-SAA/attatchments/Pasted image 20260624230748.png",
-    "AWS-SAA/attatchments/Pasted image 20260624220303.png",
     "무제 1",
     "Network/OSPF",
-    "AWS-SAA/Hub Note",
+    "AWS-SAA/Hub Notes",
     "AWS-SAA/무제.base",
     "GPU",
     "Linux",
-    "기타",
-    "FQDN & PQDN"
+    "기타"
   ]
 }

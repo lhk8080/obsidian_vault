@@ -64,3 +64,7 @@
 - 브라우저에서 AWS CLI를 사용
 - 콘솔, GUI는 직관적이고 초보자 친화적이나, 반복 작업이나 필터링 자동화 측면에서 불편할 수 있음 > CLI를 이용하면 간단하게 처리 가능
 - 미지원 리전도 존재
+
+
+#### AWS CLI 참고
+https://docs.aws.amazon.com/cli/latest/
