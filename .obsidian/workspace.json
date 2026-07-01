@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS-SAA/CloudWatch.md",
+                "file": "AWS-SAA/Hub Notes/Monitoring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CloudWatch"
+              "title": "Monitoring"
             }
           }
         ]
@@ -186,11 +186,11 @@
   },
   "active": "20e98d14b55908db",
   "lastOpenFiles": [
+    "AWS-SAA/CloudWatch.md",
+    "AWS-SAA/Hub Notes/Monitoring.md",
     "AWS-SAA/AWS Config.md",
     "AWS-SAA/AWS CLI.md",
-    "AWS-SAA/CloudWatch.md",
     "AWS-SAA/attatchments/Pasted image 20260701222221.png",
-    "AWS-SAA/Hub Notes/Monitoring.md",
     "Linux/Linux.md",
     "Linux/VSZ & RSS.md",
     "Linux/Memory Management.md",

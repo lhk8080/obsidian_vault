@@ -63,6 +63,11 @@
 
 - 통신이 느려졌을 때 > 어플리케이션 or 네트워크 문제인지 바로 파악하기 여려움
 - Network Synthetic Monitor는 네트워크 자체의 상태를 측정해줌
+-  CloudWatch Metrics 연동 
+	- 측정 결과를 CloudWatch Metrics로 전송하여 대시보드/알람에서 활용 가능
+- ICMP / TCP 테스트 지원
+	- Site-to-Site VPN 연결 상태 확인
+	- Direct Connect 회선 품질 모니터링
 - 측정 항목
 	- Latency (지연시간)
 	- Packet Loss (패킷 손실 비율)
